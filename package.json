@@ -1,0 +1,39 @@
+{
+  "name": "lsp-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@codingame/monaco-vscode-api": "^25.1.2",
+    "@codingame/monaco-vscode-configuration-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-editor-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-environment-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-explorer-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-extensions-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-files-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-host-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-languages-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-lifecycle-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-model-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-quickaccess-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-storage-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-textmate-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-theme-defaults-default-extension": "^25.1.2",
+    "@codingame/monaco-vscode-theme-service-override": "^25.1.2",
+    "@codingame/monaco-vscode-workbench-service-override": "^25.1.2",
+    "monaco-editor": "npm:@codingame/monaco-vscode-editor-api@^25.1.2",
+    "monaco-languageclient": "^10.7.0",
+    "vscode": "npm:@codingame/monaco-vscode-extension-api@^25.1.2",
+    "vscode-jsonrpc": "^8.0.0",
+    "vscode-languageclient": "^9.0.0"
+  },
+  "devDependencies": {
+    "@codingame/esbuild-import-meta-url-plugin": "^1.0.3",
+    "@vscode/vscode-languagedetection": "^1.0.22",
+    "vite": "^8.0.2",
+    "vscode-oniguruma": "^2.0.1",
+    "vscode-textmate": "^9.2.0"
+  }
+}
