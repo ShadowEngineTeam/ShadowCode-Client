@@ -51,7 +51,7 @@ self.MonacoEnvironment = {
 
 // Monaco only ever sees virtual paths under this root — real paths never exposed to the browser
 const params = new URLSearchParams(window.location.search);
-const workspaceName = params.get('name').replace(' ', '_') ?? "workspace";
+const workspaceName = params.get('name') == undefined ? "workspace" : params.get('name').replace(' ', '_');
 const WORKSPACE_ROOT = `file:///${workspaceName}`;
 const WORKSPACE_PATH = `/${workspaceName}`; // the path component of WORKSPACE_ROOT
 
