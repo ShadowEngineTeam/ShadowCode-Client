@@ -7,7 +7,7 @@ export default defineConfig({
   },
 
   build: {
-    outDir: '../monaco',
+    outDir: '../shadowcode',
     emptyOutDir: true,
     target: 'esnext',
     minify: 'esbuild',
